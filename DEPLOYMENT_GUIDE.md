@@ -47,7 +47,7 @@ ffmpeg -version
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/voice-auth-api.git
+git clone https://github.com/KSingh0405/Voice_detection_api.git
 cd voice-auth-api
 ```
 
