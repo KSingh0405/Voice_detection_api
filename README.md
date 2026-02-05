@@ -125,7 +125,7 @@ Post-classification heuristics adjust confidence based on:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/voice-auth-api.git
+git clone https://github.com/KSingh0405/Voice_detection_api.git
 cd voice-auth-api
 
 # Create virtual environment
@@ -479,7 +479,7 @@ MIT License - see LICENSE file for details
 ## 📞 Support
 
 - Documentation: [https://docs.yourapi.com](https://docs.yourapi.com)
-- Issues: [GitHub Issues](https://github.com/yourusername/voice-auth-api/issues)
+- Issues: [GitHub Issues](https://github.com/KSingh0405/Voice_detection_api.git/issues)
 - Email: support@yourapi.com
 
 ## 🙏 Acknowledgments
