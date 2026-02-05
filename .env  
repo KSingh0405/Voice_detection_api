@@ -1,0 +1,3 @@
+API_KEYS=dev_key_123,test_key_456
+LOG_LEVEL=DEBUG
+MODEL_PATH=models/weights

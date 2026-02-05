@@ -1,0 +1,22 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# Audio processing
+pydub
+librosa
+soundfile
+numpy
+scipy
+
+# Machine learning
+scikit-learn
+joblib
+
+# Optional: Deep learning (if using neural networks)
+# torch==2.1.2
+# torchaudio==2.1.2
+
+# Utilities
+python-dotenv

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: voice-auth-api
+    ports:
+      - "8000:8000"
+    environment:
+      - API_KEYS=${API_KEYS:-demo_key_12345,test_key_67890}
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./models/weights:/app/models/weights
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
