@@ -476,12 +476,6 @@ Contributions welcome! Please:
 
 MIT License - see LICENSE file for details
 
-## 📞 Support
-
-- Documentation: [https://docs.yourapi.com](https://docs.yourapi.com)
-- Issues: [GitHub Issues](https://github.com/KSingh0405/Voice_detection_api.git/issues)
-- Email: support@yourapi.com
-
 ## 🙏 Acknowledgments
 
 - Librosa for audio processing
